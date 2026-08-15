@@ -1,0 +1,27 @@
+# Configuración sensible
+config/
+
+# Bases de datos
+*.sql
+
+# Archivos generados y temporales
+storage/
+uploads/
+
+# Dependencias PHP
+vendor/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+# Scripts administrativos locales
+scripts/create_admin.php
+scripts/mark_destacado.php
